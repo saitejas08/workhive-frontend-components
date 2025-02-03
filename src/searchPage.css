@@ -1,0 +1,89 @@
+.search-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .freelancer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .freelancer-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .freelancer-card:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .freelancer-details {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #444;
+    margin-top: 4px;
+  }
+  
+  .tags {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .badge {
+    background-color: #f3f3f3;
+    color: #333;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+  .no-results {
+    color: #777;
+    margin-top: 20px;
+  }
+  
